@@ -15,7 +15,7 @@ const Application = () => {
   const isServerInfo = true;
   if (isServerInfo)
     return (
-      <MoralisProvider appId="vYOgIMso0FV6bq1YRg4Ew3qmfuJhOb2Yy5c2xCvW" serverUrl="https://j0lecmwqvhvo.usemoralis.com:2053/server">
+      <MoralisProvider appId="6KyON5tcUac3a61pGSP94t6hewyqGUl5HNpGOXvY" serverUrl="https://wsvywkyx3ozz.bigmoralis.com:2053/server">
         <MoralisDappProvider>
           <App isServerInfo />
         </MoralisDappProvider>
