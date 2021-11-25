@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import { Button, Card, Input, Typography, Form, notification } from "antd";
 import { useMemo, useState } from "react";
 import contractInfo from "contracts/contractInfo.json";
@@ -6,7 +7,7 @@ import { useMoralis, useMoralisQuery } from "react-moralis";
 import { getEllipsisTxt } from "helpers/formatters";
 import { useEffect } from "react";
 import ContractMethods from "./ContractMethods";
-
+// eslint-disable-next-line
 const { Text } = Typography;
 
 export default function Contract() {
@@ -15,7 +16,7 @@ export default function Contract() {
   const { contractName, networks, abi } = contractInfo;
 
   const contractAddress = useMemo(() => networks[1337].address, [networks]);
-
+// eslint-disable-next-line
   useEffect(() => console.log("contractInfo", contractInfo), [contractInfo]);
 
   /**Live query */

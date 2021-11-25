@@ -63,3 +63,6 @@ export const PolygonLogo = () => (
     />
   </svg>
 );
+export const CCIMLogo = () => (
+    <svg id="Lager_1" data-name="Lager 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><path d="M216.94,107.67H157.05a67.64,67.64,0,0,0-18.68-35.26L122.1,88.67a45.06,45.06,0,1,1-63.72,0h0L42.11,72.43a68.07,68.07,0,1,0,115.43,58.08h36.59v89.72H217V130.51h25.16v89.72h22.83V107.67h-48Z"/></svg>
+    );
