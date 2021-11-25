@@ -7,12 +7,12 @@ import QuickStart from "components/QuickStart";
 import {MoralisDappProvider} from "./providers/MoralisDappProvider/MoralisDappProvider";
 
 /** Get your free Moralis Account https://moralis.io/ */
-
+/*
 const APP_ID = "vYOgIMso0FV6bq1YRg4Ew3qmfuJhOb2Yy5c2xCvW";
 const SERVER_URL = "https://j0lecmwqvhvo.usemoralis.com:2053/server";
-
+*/
 const Application = () => {
-  const isServerInfo = APP_ID && SERVER_URL ? true : false;
+  const isServerInfo = true;
   if (isServerInfo)
     return (
       <MoralisProvider appId="vYOgIMso0FV6bq1YRg4Ew3qmfuJhOb2Yy5c2xCvW" serverUrl="https://j0lecmwqvhvo.usemoralis.com:2053/server">
