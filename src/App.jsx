@@ -1,6 +1,6 @@
-import { useEffect } from "react";
-import { useMoralis } from "react-moralis";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import {useEffect} from "react";
+import {useMoralis} from "react-moralis";
+import {BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 import Account from "components/Account";
 import Chains from "components/Chains";
 import TokenPrice from "components/TokenPrice";
@@ -9,16 +9,16 @@ import ERC20Transfers from "components/ERC20Transfers";
 import InchDex from "components/InchDex";
 import NFTBalance from "components/NFTBalance";
 import Wallet from "components/Wallet";
-import { Layout, Tabs } from "antd";
+import {Layout, Tabs} from "antd";
 import "antd/dist/antd.css";
 import NativeBalance from "components/NativeBalance";
 import "./style.css";
 // eslint-disable-next-line
-import QuickStart from "components/QuickStart";
 import Contract from "components/Contract/Contract";
 import Text from "antd/lib/typography/Text";
 import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
+
 const { Header, Footer } = Layout;
 
 const styles = {
@@ -126,15 +126,15 @@ const App = ({ isServerInfo }) => {
       </Router>
       <Footer style={{ textAlign: "center" }}>
         <Text style={{ display: "block" }}>
-          ⭐️ Please star this{" "}
+          A 🎶 service from {" "}
           <a
-            href="https://github.com/ethereum-boilerplate/ethereum-boilerplate/"
+            href="https://newinternet.media/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            boilerplate
+            New Internet Media
           </a>
-          , every star makes us very happy!
+          , Powered by Copyright Flow!
         </Text>
 
         <Text style={{ display: "block" }}>
@@ -142,20 +142,30 @@ const App = ({ isServerInfo }) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://forum.moralis.io/t/ethereum-boilerplate-questions/3951/29"
+            href="https://nim.echofin.com"
           >
-            Moralis forum
+            NIM forum
           </a>
         </Text>
 
         <Text style={{ display: "block" }}>
-          📖 Read more about{" "}
+          Check out our 🎶 user-centric service {""}
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplat"
+            href="https://music.streamed.media"
           >
-            Moralis
+            Royalties paid in account before song has ended
+          </a>
+          </Text>
+        <Text style={{ display: "block" }}>
+          Check out our 🎶 user-centric reports {""}
+          <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://streamed.media/report"
+          >
+            Choose More details for -erm... details
           </a>
         </Text>
       </Footer>
